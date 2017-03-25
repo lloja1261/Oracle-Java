@@ -1,2 +1,2 @@
 # Oracle-Java
-Simpl Java Projects
+Simple Java Projects
