@@ -17,7 +17,7 @@ public class ChoiceDemo extends Applet implements ItemListener{
         os=new Choice ();
         browser=new Choice();
         //add items to os list
-        os.add("Windows");
+        os.add("Windows");  //adds different choices to os list
         os.add("Andoroid");
         os.add("Solaris");
         os.add("Mac OS");
@@ -38,7 +38,7 @@ public class ChoiceDemo extends Applet implements ItemListener{
     }
 
     //Display current selections.
-    public void paint(Graphics g){
+    public void paint(Graphics g){ //uses the graphics to create the different sections
         msg="Current OS: ";
         msg += os.getSelectedItem();
         g.drawString(msg,6, 120);
