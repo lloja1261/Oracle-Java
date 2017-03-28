@@ -9,7 +9,7 @@ import java.applet.*;
     <applet code="ChoiceDemo" with=300 height=180>
     </applet>
  */
-public class ChoiceDemo extends Applet implements ItemListener{
+public class ChoiceDemo extends Applet implements ItemListener{ //for mouse clicks
     Choice os, browser;
     String msg="";
 
